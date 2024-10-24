@@ -1,0 +1,30 @@
+body {
+  font-family: system-ui;
+  background: #f06d06;
+  color: white;
+  text-align: center;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #d8cc92; /* Fondo negro */
+  color: #fff; /* Texto blanco */
+  font-family: Arial, sans-serif; /* Fuente simple */
+  text-align: center; /* Centra el contenido */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+#image {
+  max-width: 80%;
+  max-height: 80%;
+}
+.countdown {
+  font-size: 2em;
+  margin-top: 20px;
+}
+audio {
+  margin-top: 20px;
+}
